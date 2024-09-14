@@ -247,7 +247,7 @@ st.divider()
 
 st.subheader("Machine #8 | :green[Status Running]")
 st.write("DOFF = ", int(machine_8))
-st.write("RPMS = ", int(machine_8))
+st.write("RPMS = ", int(machine_8_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="8")
 try:
     machine_current_revs = float(machine_current_revs)

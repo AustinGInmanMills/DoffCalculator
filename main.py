@@ -5,7 +5,7 @@ st.markdown(
     body="""
         <style>
             .block-container{
-                    padding-top: 25px;
+                    padding-top: 15px;
                 }
         </style>
     """,

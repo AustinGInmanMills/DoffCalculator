@@ -10,7 +10,9 @@ machine_3_rpms = 15
 st.header("Inman Mills | Doff Calculator [V1.0.0]", divider="rainbow")
 
 st.subheader("Machine #1")
-machine_current_revs = st.text_input("Current Revs", "0", key="1")
+st.write("DOFF = ", int(machine_1))
+st.write("RPMS = ", int(machine_1_rpms))
+machine_current_revs = st.text_input("Current REVS", "0", key="1")
 try:
     machine_current_revs = float(machine_current_revs)
     calculation = machine_1 - machine_current_revs
@@ -30,6 +32,8 @@ except:
 st.divider()
 
 st.subheader("Machine #2")
+st.write("DOFF = ", int(machine_2))
+st.write("RPMS = ", int(machine_2_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="2")
 try:
     machine_current_revs = float(machine_current_revs)
@@ -50,6 +54,8 @@ except:
 st.divider()
 
 st.subheader("Machine #3")
+st.write("DOFF = ", int(machine_3))
+st.write("RPMS = ", int(machine_3_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="3")
 try:
     machine_current_revs = float(machine_current_revs)

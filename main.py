@@ -17,11 +17,11 @@ try:
     calculation = calculation / machine_1_rpms
     if calculation > 60:
         calculation = calculation / 60
-        calculation = round(calculation)
+        calculation = round(calculation, 2)
         calculation = str(calculation)
         st.write(calculation, "hours left")
     else:
-        calculation = round(calculation)
+        calculation = round(calculation, 2)
         calculation = str(calculation)
         st.write(calculation, "minutes")
 except:
@@ -37,11 +37,11 @@ try:
     calculation = calculation / machine_2_rpms
     if calculation > 60:
         calculation = calculation / 60
-        calculation = round(calculation)
+        calculation = round(calculation, 2)
         calculation = str(calculation)
         st.write(calculation, "hours left")
     else:
-        calculation = round(calculation)
+        calculation = round(calculation, 2)
         calculation = str(calculation)
         st.write(calculation, "minutes")
 except:
@@ -57,11 +57,11 @@ try:
     calculation = calculation / machine_3_rpms
     if calculation > 60:
         calculation = calculation / 60
-        calculation = round(calculation)
+        calculation = round(calculation, 2)
         calculation = str(calculation)
         st.write(calculation, "hours left")
     else:
-        calculation = round(calculation)
+        calculation = round(calculation, 2)
         calculation = str(calculation)
         st.write(calculation, "minutes")
 except:

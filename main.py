@@ -78,7 +78,7 @@ machine_21_rpms = 8
 machine_22 = 1600
 machine_22_rpms = 15
 
-st.header("Inman Mills | Doff Calculator [V1.0.0]", divider="rainbow")
+st.header("Doff Calculator [V1.0.0]", divider="rainbow")
 
 st.subheader("Machine #1 | :red[Status Down]")
 st.write("DOFF = ", int(machine_1))

@@ -1,6 +1,17 @@
 from math import trunc
 import streamlit as st
 
+st.markdown(
+    body="""
+        <style>
+            .block-container{
+                    padding-top: 25px;
+                }
+        </style>
+    """,
+    unsafe_allow_html=True
+)
+
 machine_1 = 1600
 machine_1_rpms = 15
 machine_1_yarn_type = "N/A"

@@ -91,7 +91,7 @@ machine_22 = 1600
 machine_22_rpms = 15
 machine_22_yarn_type = "Pink&Black Cone"
 
-st.header("Inman Mills | Doff Calculator [V1.0.1]", divider="rainbow")
+st.header("Doff Calculator [V1.0.1]", divider="rainbow")
 
 st.subheader("Machine #1 | :red[Status Down]")
 st.markdown(f"Yarn Type = :green[{machine_1_yarn_type}]")

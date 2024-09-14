@@ -220,7 +220,7 @@ except:
 
 st.divider()
 
-st.subheader("Machine #7 | :green[Status Running]")
+st.subheader("Machine #7 | :red[Status Down]")
 st.write("DOFF = ", int(machine_7))
 st.write("RPMS = ", int(machine_7_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="7")
@@ -320,7 +320,7 @@ except:
 
 st.divider()
 
-st.subheader("Machine #11 | :green[Status Running]")
+st.subheader("Machine #11 | :red[Status Down]")
 st.write("DOFF = ", int(machine_11))
 st.write("RPMS = ", int(machine_11_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="11")

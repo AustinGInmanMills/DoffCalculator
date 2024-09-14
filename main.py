@@ -151,8 +151,8 @@ st.write("RPMS = ", int(machine_4_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="4")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_4 - machine_current_revs
+    calculation = calculation / machine_4_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -176,8 +176,8 @@ st.write("RPMS = ", int(machine_5_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="5")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_5 - machine_current_revs
+    calculation = calculation / machine_5_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -201,8 +201,8 @@ st.write("RPMS = ", int(machine_6_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="6")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_6 - machine_current_revs
+    calculation = calculation / machine_6_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -226,8 +226,8 @@ st.write("RPMS = ", int(machine_7_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="7")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_7 - machine_current_revs
+    calculation = calculation / machine_7_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -251,8 +251,8 @@ st.write("RPMS = ", int(machine_8))
 machine_current_revs = st.text_input("Current Revs", "0", key="8")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_8 - machine_current_revs
+    calculation = calculation / machine_8_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -276,8 +276,8 @@ st.write("RPMS = ", int(machine_9_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="9")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_9 - machine_current_revs
+    calculation = calculation / machine_9_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -301,8 +301,8 @@ st.write("RPMS = ", int(machine_10_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="10")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_10 - machine_current_revs
+    calculation = calculation / machine_10_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -326,8 +326,8 @@ st.write("RPMS = ", int(machine_11_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="11")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_11 - machine_current_revs
+    calculation = calculation / machine_11_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -351,8 +351,8 @@ st.write("RPMS = ", int(machine_12_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="12")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_12 - machine_current_revs
+    calculation = calculation / machine_12_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -376,8 +376,8 @@ st.write("RPMS = ", int(machine_13_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="13")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_13 - machine_current_revs
+    calculation = calculation / machine_13_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -401,8 +401,8 @@ st.write("RPMS = ", int(machine_14_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="14")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_14 - machine_current_revs
+    calculation = calculation / machine_14_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -426,8 +426,8 @@ st.write("RPMS = ", int(machine_15_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="15")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_15 - machine_current_revs
+    calculation = calculation / machine_15_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -451,8 +451,8 @@ st.write("RPMS = ", int(machine_16_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="16")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_16 - machine_current_revs
+    calculation = calculation / machine_16_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -476,8 +476,8 @@ st.write("RPMS = ", int(machine_17_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="17")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_17 - machine_current_revs
+    calculation = calculation / machine_17_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -501,8 +501,8 @@ st.write("RPMS = ", int(machine_18_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="18")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_18 - machine_current_revs
+    calculation = calculation / machine_18_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -526,8 +526,8 @@ st.write("RPMS = ", int(machine_19_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="19")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_19 - machine_current_revs
+    calculation = calculation / machine_19_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -551,8 +551,8 @@ st.write("RPMS = ", int(machine_20_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="20")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_20 - machine_current_revs
+    calculation = calculation / machine_20_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -576,8 +576,8 @@ st.write("RPMS = ", int(machine_21_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="21")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_21 - machine_current_revs
+    calculation = calculation / machine_21_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)
@@ -601,8 +601,8 @@ st.write("RPMS = ", int(machine_22_rpms))
 machine_current_revs = st.text_input("Current Revs", "0", key="22")
 try:
     machine_current_revs = float(machine_current_revs)
-    calculation = machine_3 - machine_current_revs
-    calculation = calculation / machine_3_rpms
+    calculation = machine_22 - machine_current_revs
+    calculation = calculation / machine_22_rpms
     if calculation > 60:
         calculation = calculation / 60
         number_dec1 = trunc(calculation)

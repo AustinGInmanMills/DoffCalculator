@@ -74,7 +74,7 @@ machine_8_status = ":green[Status: Operable]"
 machine_8_size = ":orange[King]"
 
 machine_9 = 1400
-machine_9_rpms = 9
+machine_9_rpms = 10
 machine_9_yarn_type = "Horse Head Cone"
 machine_9_status = ":green[Status: Operable]"
 machine_9_size = ":orange[King]"
@@ -122,7 +122,7 @@ machine_16_status = ":red[Status: Inoperable]"
 machine_16_size = ":orange[King]"
 
 machine_17 = 1600
-machine_17_rpms = 10
+machine_17_rpms = 9
 machine_17_yarn_type = "Pink&Black Cone"
 machine_17_status = ":green[Status: Operable]"
 machine_17_size = ":orange[Queen]"

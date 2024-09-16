@@ -112,7 +112,7 @@ machine_14_size = "N/A"
 machine_15 = 1600
 machine_15_rpms = 15
 machine_15_yarn_type = "Black&White Cone"
-machine_15_status = ":green[Status: Operable]"
+machine_15_status = ":red[Status: Inoperable]"
 machine_15_size = "N/A"
 
 machine_16 = 1600
@@ -124,7 +124,7 @@ machine_16_size = "N/A"
 machine_17 = 1600
 machine_17_rpms = 10
 machine_17_yarn_type = "Pink&Black Cone"
-machine_17_status = ":red[Status: Inoperable]"
+machine_17_status = ":green[Status: Operable]"
 machine_17_size = "N/A"
 
 machine_18 = 1600
@@ -837,11 +837,11 @@ with tab2:
             st.markdown(f"DOFF = :orange[{machine_13}]")
             st.markdown(f"RPMS = :orange[{machine_13_rpms}]")
             st.divider()
-            st.subheader(f"Machine #15 | {machine_15_status}")
-            st.markdown(f"Size = :orange[{machine_15_size}]")
-            st.markdown(f"Yarn Type = :orange[{machine_15_yarn_type}]")
-            st.markdown(f"DOFF = :orange[{machine_15}]")
-            st.markdown(f"RPMS = :orange[{machine_15_rpms}]")
+            st.subheader(f"Machine #17 | {machine_17_status}")
+            st.markdown(f"Size = :orange[{machine_17_size}]")
+            st.markdown(f"Yarn Type = :orange[{machine_17_yarn_type}]")
+            st.markdown(f"DOFF = :orange[{machine_17}]")
+            st.markdown(f"RPMS = :orange[{machine_17_rpms}]")
             st.divider()
             st.subheader(f"Machine #18 | {machine_18_status}")
             st.markdown(f"Size = :orange[{machine_18_size}]")
@@ -906,9 +906,12 @@ with tab2:
             st.markdown(f"DOFF = :orange[{machine_14}]")
             st.markdown(f"RPMS = :orange[{machine_14_rpms}]")
             st.divider()
-            
-            
-            
+            st.subheader(f"Machine #15 | {machine_15_status}")
+            st.markdown(f"Size = :orange[{machine_15_size}]")
+            st.markdown(f"Yarn Type = :orange[{machine_15_yarn_type}]")
+            st.markdown(f"DOFF = :orange[{machine_15}]")
+            st.markdown(f"RPMS = :orange[{machine_15_rpms}]")
+            st.divider()
             st.subheader(f"Machine #16 | {machine_16_status}")
             st.markdown(f"Size = :orange[{machine_16_size}]")
             st.markdown(f"Yarn Type = :orange[{machine_16_yarn_type}]")
@@ -917,13 +920,6 @@ with tab2:
             st.divider()
             
             
-            
-            
-            st.subheader(f"Machine #17 | {machine_17_status}")
-            st.markdown(f"Size = :orange[{machine_17_size}]")
-            st.markdown(f"Yarn Type = :orange[{machine_17_yarn_type}]")
-            st.markdown(f"DOFF = :orange[{machine_17}]")
-            st.markdown(f"RPMS = :orange[{machine_17_rpms}]")
             
 
 

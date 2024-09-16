@@ -74,7 +74,7 @@ machine_8_status = ":green[Status: Operable]"
 machine_8_size = ":orange[King]"
 
 machine_9 = 1400
-machine_9_rpms = 10
+machine_9_rpms = 9
 machine_9_yarn_type = "Horse Head Cone"
 machine_9_status = ":green[Status: Operable]"
 machine_9_size = ":orange[King]"

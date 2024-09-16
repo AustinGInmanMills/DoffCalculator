@@ -118,7 +118,7 @@ machine_15_size = "N/A"
 machine_16 = 1600
 machine_16_rpms = 15
 machine_16_yarn_type = "Black&White Cone"
-machine_16_status = ":res[Status: Inoperable]"
+machine_16_status = ":red[Status: Inoperable]"
 machine_16_size = "N/A"
 
 machine_17 = 1600
@@ -905,12 +905,20 @@ with tab2:
             st.markdown(f"Yarn Type = :orange[{machine_14_yarn_type}]")
             st.markdown(f"DOFF = :orange[{machine_14}]")
             st.markdown(f"RPMS = :orange[{machine_14_rpms}]")
+            st.divider()
+            
+            
+            
             st.subheader(f"Machine #16 | {machine_16_status}")
             st.markdown(f"Size = :orange[{machine_16_size}]")
             st.markdown(f"Yarn Type = :orange[{machine_16_yarn_type}]")
             st.markdown(f"DOFF = :orange[{machine_16}]")
             st.markdown(f"RPMS = :orange[{machine_16_rpms}]")
             st.divider()
+            
+            
+            
+            
             st.subheader(f"Machine #17 | {machine_17_status}")
             st.markdown(f"Size = :orange[{machine_17_size}]")
             st.markdown(f"Yarn Type = :orange[{machine_17_yarn_type}]")

@@ -29,7 +29,7 @@ machine_1 = "N/A"
 machine_1_rpms = "N/A"
 machine_1_yarn_type = "N/A"
 machine_1_status = ":red[Status: Inoperable]"
-machine_1_size = "N/A"
+machine_1_size = ":orange[Queen]"
 
 machine_2 = "N/A"
 machine_2_rpms = "N/A"
@@ -41,121 +41,121 @@ machine_3 = 1800
 machine_3_rpms = 10
 machine_3_yarn_type = "Black&White Cone"
 machine_3_status = ":green[Status: Operable]"
-machine_3_size = "N/A"
+machine_3_size = ":orange[Queen]"
 
 machine_4 = 1600
 machine_4_rpms = 10
 machine_4_yarn_type = "Horse Head Cone"
 machine_4_status = ":green[Status: Operable]"
-machine_4_size = "N/A"
+machine_4_size = ":orange[Queen]"
 
 machine_5 = 1800
 machine_5_rpms = 11
 machine_5_yarn_type = "Black&White Cone"
 machine_5_status = ":green[Status: Operable]"
-machine_5_size = "N/A"
+machine_5_size = ":orange[Queen]"
 
 machine_6 = 1600
 machine_6_rpms = 15
 machine_6_yarn_type = "Black&White Cone"
 machine_6_status = ":green[Status: Operable]"
-machine_6_size = "N/A"
+machine_6_size = ":orange[King]"
 
 machine_7 = "N/A"
 machine_7_rpms = "N/A"
 machine_7_yarn_type = "Black&White Cone"
 machine_7_status = ":red[Status: Inoperable]"
-machine_7_size = "N/A"
+machine_7_size = ":orange[King]"
 
 machine_8 = 1400
 machine_8_rpms = 8
 machine_8_yarn_type = "Horse Head Cone"
 machine_8_status = ":green[Status: Operable]"
-machine_8_size = "N/A"
+machine_8_size = ":orange[King]"
 
 machine_9 = 1400
 machine_9_rpms = 10
 machine_9_yarn_type = "Horse Head Cone"
 machine_9_status = ":green[Status: Operable]"
-machine_9_size = "N/A"
+machine_9_size = ":orange[King]"
 
 machine_10 = "N/A"
 machine_10_rpms = "N/A"
 machine_10_yarn_type = "N/A"
 machine_10_status = ":red[Status: Inoperable]"
-machine_10_size = "N/A"
+machine_10_size = ":orange[King]"
 
 machine_11 = "N/A"
 machine_11_rpms = "N/A"
 machine_11_yarn_type = "Black&White Cone"
 machine_11_status = ":green[Status: Operable]"
-machine_11_size = "Twin"
+machine_11_size = ":orange[Twin]"
 
 machine_12 = 2800
 machine_12_rpms = 8
 machine_12_yarn_type = "Horse Head Cone"
 machine_12_status = ":green[Status: Operable]"
-machine_12_size = "Twin"
+machine_12_size = ":orange[Twin]"
 
 machine_13 = 2800
 machine_13_rpms = 12
 machine_13_yarn_type = "Horse Head Cone"
 machine_13_status = ":green[Status: Operable]"
-machine_13_size = "Twin"
+machine_13_size = ":orange[Twin]"
 
 machine_14 = "N/A"
 machine_14_rpms = "N/A"
 machine_14_yarn_type = "N/A"
 machine_14_status = ":red[Status: Inoperable]"
-machine_14_size = "N/A"
+machine_14_size = ":orange[Twin]"
 
 machine_15 = 1600
 machine_15_rpms = 15
 machine_15_yarn_type = "Black&White Cone"
 machine_15_status = ":red[Status: Inoperable]"
-machine_15_size = "N/A"
+machine_15_size = ":orange[King]"
 
 machine_16 = 1600
 machine_16_rpms = 15
 machine_16_yarn_type = "Black&White Cone"
 machine_16_status = ":red[Status: Inoperable]"
-machine_16_size = "N/A"
+machine_16_size = ":orange[King]"
 
 machine_17 = 1600
 machine_17_rpms = 10
 machine_17_yarn_type = "Pink&Black Cone"
 machine_17_status = ":green[Status: Operable]"
-machine_17_size = "N/A"
+machine_17_size = ":orange[Queen]"
 
 machine_18 = 1600
 machine_18_rpms = 8
 machine_18_yarn_type = "Pink&Black Cone"
 machine_18_status = ":green[Status: Operable]"
-machine_18_size = "N/A"
+machine_18_size = ":orange[Queen]"
 
 machine_19 = 1600
 machine_19_rpms = 15
 machine_19_yarn_type = "Black&White Cone"
 machine_19_status = ":green[Status: Operable]"
-machine_19_size = "N/A"
+machine_19_size = ":orange[King]"
 
 machine_20 = 1600
 machine_20_rpms = 8
 machine_20_yarn_type = "Pink&Black Cone"
 machine_20_status = ":green[Status: Operable]"
-machine_20_size = "N/A"
+machine_20_size = ":orange[King]"
 
 machine_21 = 1600
 machine_21_rpms = 8
 machine_21_yarn_type = "Pink&Black Cone"
 machine_21_status = ":green[Status: Operable]"
-machine_21_size = "N/A"
+machine_21_size = ":orange[King]"
 
 machine_22 = 1600
 machine_22_rpms = 15
 machine_22_yarn_type = "Pink&Black Cone"
 machine_22_status = ":green[Status: Operable]"
-machine_22_size = "N/A"
+machine_22_size = ":orange[King]"
 
 
 st.header("Knitting Department Multi Tool", divider="red")

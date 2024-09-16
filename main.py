@@ -1193,6 +1193,14 @@ with tab2:
             st.markdown(f"Yarn Type = :orange[{machine_13_yarn_type}]")
             st.markdown(f"DOFF = :orange[{machine_13}]")
             st.markdown(f"RPMS = :orange[{machine_13_rpms}]")
+            
+            
+            st.divider()
+            st.subheader(f"Machine #14 | {machine_14_status}")
+            st.markdown(f"Size = :orange[{machine_14_size}]")
+            st.markdown(f"Yarn Type = :orange[{machine_14_yarn_type}]")
+            st.markdown(f"DOFF = :orange[{machine_14}]")
+            st.markdown(f"RPMS = :orange[{machine_14_rpms}]")
 
 
     elif options == "Machines Yarn Type":

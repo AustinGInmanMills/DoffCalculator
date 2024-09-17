@@ -15,7 +15,7 @@ st.markdown(
 
 
 total_operable = 14
-total_inoperable = 6
+total_inoperable = 8
 
 total_kings = 10
 total_queens = 6

@@ -14,8 +14,8 @@ st.markdown(
 )
 
 
-total_operable = 15
-total_inoperable = 7
+total_operable = 14
+total_inoperable = 6
 
 total_kings = 10
 total_queens = 6
@@ -148,7 +148,7 @@ machine_20_size = ":orange[King]"
 machine_21 = 1600
 machine_21_rpms = 8
 machine_21_yarn_type = "Pink&Black Cone"
-machine_21_status = ":green[Status: Operable]"
+machine_21_status = ":red[Status: Inoperable]"
 machine_21_size = ":orange[King]"
 
 machine_22 = 1600
@@ -861,12 +861,6 @@ with tab2:
             st.markdown(f"DOFF = :orange[{machine_20}]")
             st.markdown(f"RPMS = :orange[{machine_20_rpms}]")
             st.divider()
-            st.subheader(f"Machine #21 | {machine_21_status}")
-            st.markdown(f"Size = :orange[{machine_21_size}]")
-            st.markdown(f"Yarn Type = :orange[{machine_21_yarn_type}]")
-            st.markdown(f"DOFF = :orange[{machine_21}]")
-            st.markdown(f"RPMS = :orange[{machine_21_rpms}]")
-            st.divider()
             st.subheader(f"Machine #22 | {machine_22_status}")
             st.markdown(f"Size = :orange[{machine_22_size}]")
             st.markdown(f"Yarn Type = :orange[{machine_22_yarn_type}]")
@@ -918,7 +912,11 @@ with tab2:
             st.markdown(f"DOFF = :orange[{machine_16}]")
             st.markdown(f"RPMS = :orange[{machine_16_rpms}]")
             st.divider()
-            
+            st.subheader(f"Machine #21 | {machine_21_status}")
+            st.markdown(f"Size = :orange[{machine_21_size}]")
+            st.markdown(f"Yarn Type = :orange[{machine_21_yarn_type}]")
+            st.markdown(f"DOFF = :orange[{machine_21}]")
+            st.markdown(f"RPMS = :orange[{machine_21_rpms}]")
             
             
 

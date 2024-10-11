@@ -13,5 +13,5 @@ if calculate_time:
         time_2_left = time_1_left / 60
         st.write("Time left = " + str(time_2_left))
     else:
-        time_1_left = trunc(time_1_left)
-        st.write(str(time_1_left) + " minutes left")
+        sec_cal = str(time_1_left-int(time_1_left))[1:]
+        st.write(sec_cal)

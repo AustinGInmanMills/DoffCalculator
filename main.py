@@ -5,3 +5,5 @@ rpms_input = st.number_input("Current RPMS", min_value=0, value=None, step=1, ke
 doff_input = st.number_input("Doff REVS", min_value=0, value=None, step=1, key="doff_input")
 calculate_time = st.button("Calculate")
 
+if calculate_time:
+    st.write("HELLO")

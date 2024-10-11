@@ -15,5 +15,4 @@ if calculate_time:
     else:
         sec_cal = str(time_1_left-int(time_1_left))[1:]
         seconds = sec_cal * 60
-        seconds = int(seconds)
-        st.write(time_1_left,"m",str(seconds),"s")
+        st.write(int(time_1_left),"m",str(seconds),"s")

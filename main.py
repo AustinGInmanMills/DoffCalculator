@@ -12,8 +12,8 @@ if calculate_time:
     if time_1_left > 60:
         time_2_left = round(time_1_left / 60, 2)
         st.write(time_2_left)
-        
-        first_cal = round(float(str(time_1_left-int(time_1_left)[1:])), 2)
+
+        first_cal = round(float(str(time_1_left-int(time_1_left))[1:]), 2)
         st.write(first_cal)
     else:
         time_left = round(time_1_left, 2)

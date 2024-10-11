@@ -11,17 +11,11 @@ if calculate_time:
     time_1_left = revs_left / rpms_input
     if time_1_left > 60:
         time_2_left = round(time_1_left / 60, 2)
-        st.write(time_2_left)
-
         first_cal = round(float(str(time_2_left-int(time_2_left))[1:]), 2)
-        st.write(first_cal)
-
         minutes = math.floor(first_cal * 60)
         st.write(str(int(time_2_left)) + "h", str(minutes) + "m")
     else:
         time_left = round(time_1_left, 2)
-
         sec_cal = round(float(str(time_left-int(time_left))[1:]), 2)
-
         seconds = math.floor(sec_cal * 60)
         st.write(str(int(time_1_left)) + "m", str(seconds) + "s")

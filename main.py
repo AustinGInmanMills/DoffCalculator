@@ -11,12 +11,6 @@ if calculate_time:
     time_1_left = revs_left / float(rpms_input)
     if time_1_left > 60:
         time_2_left = time_1_left / 60
-        calculation_1 = trunc(time_2_left)
-        calculation_2 = str(calculation_1 - calculation_1)[1:]
-        min_cal = calculation_2 * 60
-        calculation = str(time_2_left)
-        st.write(str(calculation_1), "hour and", str(min_cal), "minutes left")
+        st.write("Time left = " + str(time_2_left))
     else:
-        time_1_left = round(time_1_left, 2)
-        time_1_left = str(time_1_left)
-        st.write(time_1_left, "minutes left")
+        st.write("Time left = " + str(time_1_left))

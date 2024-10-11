@@ -10,11 +10,11 @@ if calculate_time:
     revs_left = doff_input - revs_input
     time_1_left = revs_left / rpms_input
     if time_1_left > 60:
-        time_2_left = time_1_left / 60
+        time_2_left = round(time_1_left / 60, 2)
         st.write(time_2_left)
     else:
         time_left = round(time_1_left, 2)
-        
+
         sec_cal = round(float(str(time_left-int(time_left))[1:]), 2)
 
         seconds = math.floor(sec_cal * 60)

@@ -15,5 +15,14 @@ if calculate_time:
             st.write(time_2_left)
             calculation_1 = trunc(time_2_left)
             st.write(calculation_1)
+            calculation_2 = str(calculation_1 - calculation_1)[1:]
+            min_cal = float(calculation_2) * 60
+            min_cal = trunc(min_cal)
+            calculation = str(time_2_left)
+            st.write(str(calculation_1), "hour and", str(min_cal), "minutes left")
+        else:
+            time_1_left = round(time_1_left, 2)
+            time_1_left = str(time_1_left)
+            st.write(time_1_left, "minutes left")
     except:
         pass

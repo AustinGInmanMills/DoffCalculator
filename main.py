@@ -14,4 +14,4 @@ if calculate_time:
         st.write("Time left = " + str(time_2_left))
     else:
         time_1_left = trunc(time_1_left)
-        st.write("Time left = " + str(time_1_left) + " minutes")
+        st.write(str(time_1_left) + " minutes left")

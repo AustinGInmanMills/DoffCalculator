@@ -13,7 +13,7 @@ if calculate_time:
         time_2_left = time_1_left / 60
         calculation_1 = trunc(time_2_left)
         calculation_2 = str(calculation_1 - calculation_1)[1:]
-        min_cal = float(calculation_2) * 60
+        min_cal = calculation_2 * 60
         min_cal = trunc(min_cal)
         calculation = str(time_2_left)
         st.write(str(calculation_1), "hour and", str(min_cal), "minutes left")

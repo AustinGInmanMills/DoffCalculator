@@ -8,13 +8,12 @@ calculate_time = st.button("Calculate")
 
 if calculate_time:
     revs_left = doff_input - revs_input
-    time_1_left = revs_left / rpms_input
-    if time_1_left > 60:
-        time_2_left = round(time_1_left / 60, 2)
-        first_cal = math.floor(round(float(str(time_2_left-int(time_2_left))[1:]), 2) * 60)
-        st.write(str(int(time_2_left)) + "h", str(first_cal) + "m")
+    time_left = revs_left / rpms_input
+    if time_left > 60:
+        time_left = round(time_left / 60, 2)
+        minutes = math.floor(round(float(str(time_left-int(time_left))[1:]), 2) * 60)
+        st.write(str(int(time_left)) + "h", str(minutes) + "m")
     else:
-        time_left = round(time_1_left, 2)
-        sec_cal = math.floor(round(float(str(time_left-int(time_left))[1:]), 2) * 60)
-        #seconds = math.floor(sec_cal * 60)
-        st.write(str(int(time_1_left)) + "m", str(sec_cal) + "s")
+        time_left = round(time_left, 2)
+        seconds = math.floor(round(float(str(time_left-int(time_left))[1:]), 2) * 60)
+        st.write(str(int(time_left)) + "m", str(seconds) + "s")

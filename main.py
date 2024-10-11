@@ -1,12 +1,12 @@
 import streamlit as st
 from math import trunc
 
-revs_input = st.text_input("Machines Current REVS")
-rpm_input = st.text_input("Machines Current RPM")
-doff_input = st.text_input("Machine DOFF REVS")
-revs_input = int(revs_input)
-rpm_input = int(rpm_input)
-doff_input = int(doff_input)
+revs = st.text_input("Machines Current REVS")
+rpm = st.text_input("Machines Current RPM")
+doff = st.text_input("Machine DOFF REVS")
+revs_input = int(revs)
+rpm_input = int(rpm)
+doff_input = int(doff)
 
 revs_left = doff_input - revs_input
 time_left_1 = revs_left / rpm_input

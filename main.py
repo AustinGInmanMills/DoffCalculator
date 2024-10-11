@@ -15,9 +15,8 @@ if calculate_time:
     else:
         time_left = round(time_1_left, 2)
         st.write(time_left)
-        sec_cal = float(str(time_left-int(time_left))[1:])
-        #sec_cal = float(sec_cal)
-        sec_cal = round(sec_cal, 2)
+        sec_cal = round(float(str(time_left-int(time_left))[1:]), 2)
+        #sec_cal = round(sec_cal, 2)
         st.write(sec_cal)
 
         #seconds = sec_cal * 60

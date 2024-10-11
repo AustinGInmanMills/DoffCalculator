@@ -23,3 +23,4 @@ try:
     st.write(calculation, "minutes")
 except:
 	pass
+  #lol

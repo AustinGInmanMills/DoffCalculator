@@ -18,6 +18,6 @@ if calculate_time:
         sec_cal = round(float(str(time_left-int(time_left))[1:]), 2)
         st.write(sec_cal)
 
-        seconds = sec_cal * 60
-        seconds = math.floor(seconds)
+        seconds = math.floor(sec_cal * 60)
+        #seconds = math.floor(seconds)
         st.write(str(int(time_1_left)) + "m", str(seconds) + "s")

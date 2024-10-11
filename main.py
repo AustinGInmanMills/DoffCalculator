@@ -15,6 +15,9 @@ if calculate_time:
 
         first_cal = round(float(str(time_2_left-int(time_2_left))[1:]), 2)
         st.write(first_cal)
+
+        minutes = math.floor(first_cal * 60)
+        st.write(str(int(time_2_left)) + "h", str(minutes) + "m")
     else:
         time_left = round(time_1_left, 2)
 

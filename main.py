@@ -21,3 +21,5 @@ try:
   	calculation = round(calculation, 2)
     calculation = str(calculation)
     st.write(calculation, "minutes")
+except:
+	pass

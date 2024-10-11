@@ -16,4 +16,4 @@ if calculate_time:
     else:
         time_left = round(time_left, 2)
         seconds = math.floor(round(float(str(time_left-int(time_left))[1:]), 2) * 60)
-        st.caption(str(int(time_left)) + "m", str(seconds) + "s")
+        st.write(str(int(time_left)) + "m", str(seconds) + "s")

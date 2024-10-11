@@ -19,4 +19,4 @@ if calculate_time:
         st.write(sec_cal)
 
         seconds = sec_cal * 60
-        st.write(str(int(time_1_left)),"m",str(seconds),"s")
+        st.write(str(int(time_1_left))+"m"+str(seconds),"s")

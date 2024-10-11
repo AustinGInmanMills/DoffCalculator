@@ -10,7 +10,7 @@ try:
 	time_left_1 = revs_left / rpm_input
 	calculation = time_left_1
 	if time_left_1 > 60:
-		calculation = time_left_1 / 60
+    calculation = time_left_1 / 60
     number_dec1 = trunc(calculation)
     number_dec2 = str(calculation - int(calculation))[1:]
     minutes_calc = float(number_dec2) * 60

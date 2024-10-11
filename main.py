@@ -1,5 +1,5 @@
 import streamlit as st
-from math import trunc
+import math
 
 revs_input = st.number_input("Current REVS", min_value=0, value=None, step=1, placeholder=None, key="rev_input")
 rpms_input = st.number_input("Current RPMS", min_value=0, value=None, step=1, key="rpm_input")
@@ -19,4 +19,5 @@ if calculate_time:
         st.write(sec_cal)
 
         seconds = sec_cal * 60
+        seconds = math.floor(seconds)
         st.write(str(int(time_1_left)) + "m", str(seconds) + "s")
